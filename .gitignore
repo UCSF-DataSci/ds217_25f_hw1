@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+.venv
+
+# Test outputs
+processed_email.txt
+email_hashes.txt
+
+# Testing
+.pytest_cache/
+*.log
+
+# Email lists (NEVER commit these!)
+email.lst
+emails.txt
+*.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
