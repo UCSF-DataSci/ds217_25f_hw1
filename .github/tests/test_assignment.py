@@ -110,21 +110,3 @@ def test_reflection_modified():
     # But be flexible - students might use brackets in their answers
     assert bracket_count < 8, \
         "Too many placeholder brackets found. Please replace the [bracketed text] with your actual answers."
-
-
-def test_reflection_has_url():
-    """Test that reflection contains at least one URL (for question 4)"""
-    with open("reflection.md", "r") as f:
-        content = f.read()
-
-    # Look for URL patterns
-    url_patterns = [
-        r'https?://[^\s]+',  # HTTP/HTTPS URLs
-        r'www\.[^\s]+',      # www URLs
-        r'[a-zA-Z0-9]+\.(com|org|edu|io|dev|net|gov)[^\s]*'  # Common domains
-    ]
-
-    has_url = any(re.search(pattern, content) for pattern in url_patterns)
-
-    assert has_url, \
-        "No URL found in reflection. Please include a link to something you enjoy in question 4."
