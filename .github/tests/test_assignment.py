@@ -60,6 +60,7 @@ def test_email_hash_valid():
         "e9d7ea3eccdf8d6ecf9169096bc5e6c9b66c048e67c2552a9ef89ee118b3300f",
         "ed1a8c3015d5a5d5b4d7be2f7390c4bf59cfd0fcfe82a5d5143d1a02b245465c",
         "ed82cca0f5f496a8c821530c9f67d5955a331faf17a3cb916fe3ab39d3a094d0",
+        "f4fe284a4f5df10404ca7ffcb775d6f90447657b6dc0311362347dfdb18f6027",
         "f6df5aee62ade4205c4836135b0c55b71a6bfbff71a9b07a388ec45d2f9b70c3",
         "fccbe9a00585237b09ae788f96272b9e9d8d3e952e5abfef63a55acd8fb92dc3",
     ]
